@@ -4,8 +4,8 @@ Follow these steps to set up and install the Vite + React project:
 
 1. **Clone the repository:**
   ```sh
-  git clone <repository-url>
-  cd <repository-directory>
+  git clone https://github.com/tanish1608/ScriptCraft-Agent.git
+  cd ScriptCraft-Agent
   ```
 
 2. **Install dependencies:**
