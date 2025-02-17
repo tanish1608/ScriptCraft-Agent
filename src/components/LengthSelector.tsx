@@ -11,7 +11,7 @@ export default function LengthSelector({ selectedLength, onLengthSelect }: Lengt
   return (
     <div>
       <h2 className="text-2xl font-semibold mb-6">Choose script length</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 " style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '2rem', marginBottom: '2rem' }}>
         {lengths.map((length) => (
           <button
             key={length.id}

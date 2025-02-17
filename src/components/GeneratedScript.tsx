@@ -15,7 +15,7 @@ export default function GeneratedScript({ script, onScriptUpdate }: GeneratedScr
         <h3 className="text-xl font-semibold">Generated Script</h3>
         <ThumbsUp className="w-5 h-5 text-purple-400" />
       </div>
-      <pre className="whitespace-pre-wrap font-mono text-sm text-gray-300">
+      <pre className="whitespace-pre-wrap font-mono text-sm text-gray-300 leading-relaxed text-left p-4 bg-gray-700 rounded">
         {script}
       </pre>
       <VoiceControls text={script} />

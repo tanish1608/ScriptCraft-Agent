@@ -11,7 +11,7 @@ export default function GenreSelector({ selectedGenre, onGenreSelect }: GenreSel
   return (
     <div>
       <h2 className="text-2xl font-semibold mb-6">Select your genre</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '1rem' }}>
         {genres.map((genre) => (
           <button
             key={genre}
